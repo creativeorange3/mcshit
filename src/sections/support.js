@@ -14,7 +14,7 @@ const data = [
   {
     id: 2,
     icon: support,
-    title: '4% Reflections',
+    title: '5% Reflections',
     description: `Hold McShit - get more McShit. At least one reason to hold this McShitty token`,
   },
 ];
