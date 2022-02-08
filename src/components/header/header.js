@@ -10,6 +10,7 @@ import { NavLink } from 'components/link';
 
 import menuItems from './header.data';
 import lock from 'assets/images/icons/lock.png';
+import { rgba } from 'polished';
 
 export default function Header() {
   const [state, setState] = useState({
@@ -75,6 +76,7 @@ const styles = {
   headerWrapper: {
     backgroundColor: 'transparent',
     header: {
+      backgroundColor: 'white',
       position: 'fixed',
       left: 0,
       right: 0,
